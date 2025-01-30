@@ -1,6 +1,6 @@
 # Shoe-Data
 Please help me manage my shoe store financials by organizing the data properly
-## Scema
+## Schema
 see the attached scenario and set it up accordingly
 ## Requirements
 I will need the following files
