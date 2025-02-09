@@ -33,8 +33,8 @@ Use the Invention table for the sample data.
 customer name should be in this format last name, first name ex. Smith, John.
 age - age at the time of the invention.
 telephone number - year invented - 1000 , first 3 digits from reversed year died, year born. format: (123)456-7890
-Company - flip the countries for the following brands: SAS, Nike, Adidas, Florsheim, Puma, New Balance, Rockport, Reebok
-    you can pick the order (If Gerrmany is not yet corrected make sure to incude that or add another brand).
+Company - there are 8 countries in the invention table, change each one for one of the following brands: SAS, Nike, Adidas, Florsheim, Puma, New Balance, Rockport, Reebok
+    you can pick the order (If Gerrmany is not yet corrected make sure to incude that with Germany or add another brand).
 date we got it - Jan 1, 20 connected to first 2 digits of year born.
 date sold - Month, based on first letter of invention name:
     a-d Feb, e-h Apr, i-l Jun, m-p Aug, q-u Oct, v-z Dec,
