@@ -12,12 +12,12 @@ concat('(', i.YearInvented - 1000, ')', substring(reverse(i.YearDied),1,3),'-', 
 datefromparts(concat(20, left(i.YearBorn, 2)),01, 01),
 datefromparts(concat(20, left(i.YearDied,2)),
             case
-                 when left(i.InventionName, 1) like '[a-d]%' then 02
-                 when left(i.InventionName, 1) like '[e-h]%' then 04
-                 when left(i.InventionName, 1) like '[i-l]%' then 06
-                 when left(i.InventionName, 1) like '[m-p]%' then 08
-                 when left(i.InventionName, 1) like '[q-u]%' then 10
-                 when left(i.InventionName, 1) like '[v-z]%' then 12 
+                 when left(i.InventionName, 1) like '[a-d]' then 02
+                 when left(i.InventionName, 1) like '[e-h]' then 04
+                 when left(i.InventionName, 1) like '[i-l]' then 06
+                 when left(i.InventionName, 1) like '[m-p]' then 08
+                 when left(i.InventionName, 1) like '[q-u]' then 10
+                 when left(i.InventionName, 1) like '[v-z]' then 12 
               end,
               concat(1, right(i.YearDied,1))),
 left(i.YearBorn, 3),
